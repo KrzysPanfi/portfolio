@@ -1,18 +1,86 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" type="text/css" href="styles.css">
+  <title>Krzysztof Portfolio</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+   <link rel="stylesheet" href="styles.css">
+     <link rel="stylesheet" href="https://bootstrapcdn.com">
+   <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  
 </head>
 <body>
 
-<div class="bg-image"></div>
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-brand" href="#">Portfolio</a>
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#Home">Home</a></li>
+        <li><a href="#Gallery">Abilities</a></li>
+        <li><a href="#Contact">Contact</a></li>
+      </ul>
+    
+    </div>
+  </div>
+</nav>
 
-<div class="bg-text">
-  <h2>Blurred Background</h2>
-  <h1 style="font-size:50px">I am John Doe</h1>
-  <p>And I'm a Photographer</p>
+<div id="Home" class="jumbotron hero-image">
+  <div class="container text-center hero-text">
+    
+    <h1>Krzysztof Panfilewicz</h1>      
+    <p>Student of Computer Science</p>
+  </div>
 </div>
+  
+<div id="Gallery" class="container-fluid bg-3 text-center">    
+  <h3>My abilities</h3><br>
+  <div class="row">
+    <div class="col-sm-3">
+      <p>Studying Computer Science at PJATK</p>
+      <img src="pjatk.png" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3"> 
+      <p> Python</p>
+      <img src="Python-Symbol.png" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3"> 
+      <p>Java</p>
+      <img src="Java-Emblem.jpg" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+    <div class="col-sm-3">
+      <p>SQL</p>
+      <img src="sql.jpg" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+  </div>
+</div><br>
+
+<div class="container-fluid bg-3 text-center">    
+  <div class="row">
+    <div class="col-sm-3">
+      <p>My Profile</p>
+      <img src="profil.jpg" class="img-responsive" style="width:100%" alt="Image">
+    </div>
+  </div>
+</div><br><br>
+
+<footer class="container-fluid text-center">
+  <div id="Contact" class="w3-container w3-center w3-padding-32">
+<h2 class="w3-wide">CONTACT</h2>
+Warsaw, Poland<br>
+Phone: +48 575962007<br>
+Email: krzyspanfilewicz@gmail.com<br>
+  </div>
+</footer>
 
 </body>
 </html>
