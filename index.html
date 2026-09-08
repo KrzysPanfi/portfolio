@@ -1,38 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <meta charset="UTF-8">
-<title>Page Title</title>
+<title>The Band</title>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 <script src="https://www.w3schools.com/lib/w3.js"></script>
 <body>
+<!-- Start Content -->
+<div id="home" class="w3-content">
 
-<img class="portfolio" src="img_la.jpg" width="100%">
-<img class="portfolio" src="img_l1.jpg" width="100%">
-<img class="portfolio" src="img_l2.jpg" width="100%">
+    <!-- Navigation (Stays on Top) -->
+<div class="w3-top w3-bar w3-black">
+<a href="#home" class="w3-bar-item w3-button">Home</a>
+<a href="#about" class="w3-bar-item w3-button">About</a>
+<a href="#members" class="w3-bar-item w3-button">Members</a>
+<a href="#contact" class="w3-bar-item w3-button">Contact</a>
+</div>>
 
-<div class="w3-container w3-black">
-<h1>This is a Heading</h1>
-<p>This is a paragraph.</p>
-<p>This is another paragraph.</p>
+<!-- Image -->
+<img src="img_la.jpg" alt="The Band" style="width:100%">
+<!-- About -->
+<div id="about" class="w3-container w3-padding-32">
+<h1 class="w3-center">The Band</h1>
+<p>This is our band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
 </div>
-<div class="w3-card" style="width:200px">
-  <img src="zdjeciepas.jpg" style="width:100%">
 
-  <div class="w3-container w3-center">
-    <p class="w3-xlarge">Krzysztof Panfilewicz</p>
-    <p>Engineer</p>
-  </div>
-
+<!-- Members -->
+<div id="members" class="w3-container w3-padding-32">
+<div class="w3-row w3-center">
+<div class="w3-third">
+  <img src="profil.jpg" alt="Name1" style="width:60%">
 </div>
+<div class="w3-third">
+  <img src="zdjeciepas.jpg" alt="Name2" style="width:60%">
+</div>
+<div class="w3-third">
+  <img src="img_fontana.jpg" alt="Name3" style="width:60%">
+</div>
+</div>
+</div>
+<!-- Contact -->
+<div id="contact" class="w3-container w3-center w3-padding-32">
+<h2 class="w3-wide">CONTACT</h2>
+Chicago, US<br>Phone: +00 151515<br>Email: mail@mail.com<br>
+<p class="w3-opacity w3-center"><i>Fan? Drop a note!</i></p>
+<form action="/action_page.php" target="_blank">
+<input class="w3-input" type="text" placeholder="Name" required name="Name">
+<input class="w3-input" type="text" placeholder="Email" required name="Email">
+<input class="w3-input" type="text" placeholder="Message" required name="Message"><br>
+<button class="w3-button w3-black" type="submit">SEND</button>
+</form>
+</div>
+<br>
+<img src="img_l2.jpg" class="w3-image" style="width:100%">
+<p class="w3-center w3-padding">Powered by <a href="https://www.w3schools.com/w3css/default.asp" title="W3.CSS" target="_blank">w3.css</a></p>
 
-
-
-    <script>
-    w3.slideshow(".portfolio", 1500);
-</script>
+<!-- End Content -->
+</div>
 </body>
-
 </html>
-
